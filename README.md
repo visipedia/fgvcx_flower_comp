@@ -38,7 +38,7 @@ Participants are allowed to collect additional annotations (e.g. bounding boxes)
 ## Annotation Format
 We closely follow the annotation format of the [COCO dataset](http://mscoco.org/dataset/#download). The annotations are stored in the [JSON format](http://www.json.org/) and are organized as follows:
 In addition to flower images, extra infomations are provided for possibly better identification
-1. We provide when&where the images were uploaded
+1. We provide when&where the images were uploaded. Note that those infomations are attached with ~60% images, and not with the left because we didn't collect that in early days of xingse.
 2. Every flower has its own super category, we provide that by "family" attribute
 3. We provide extra 200,000 unlabeled images
 ```
