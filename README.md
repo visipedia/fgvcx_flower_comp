@@ -1,6 +1,6 @@
 # 2018 FGVCx Flower Classification Challenge
 The 2018 competition is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
-Our sponsor, the [Xingse App](https://www.xingseapp.com/), has provided a dataset from a carefully curated database containing over xxx flower images from 1,000 flower species.
+Our sponsor, the [Xingse App](https://www.xingseapp.com/) & [PictureThis App](https://www.picturethisai.com/), has provided a dataset from a carefully curated database containing over 650,000 flower images from 1,000 flower species.
 
 Please open an issue if you have questions or problems with the dataset.
 
@@ -16,7 +16,7 @@ Winners Announced|June  22, 2018|
 
 ## Details
 
-There are a total of 1,000 flower species in the dataset, with xxx training images and xxx validation images. The testing set contains xxx images.
+There are a total of 1,000 flower species in the dataset, with 650,000 training images and 3,000 validation images. The testing set contains 10,000 images.
 
 ## Evaluation
 We follow a similar metric to the classification tasks of the [ILSVRC](http://image-net.org/challenges/LSVRC/2016/index#scene). For each image <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 3 labels <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/655bedbaf4a65f397b5041d0fdecde4c.svg?invert_in_darkmode" align=middle width=15.601905pt height=22.74591pt/>, <img src="https://rawgit.com/visipedia/inat_comp/master/2017/svgs/6d0aa77223bd2246e5cdd2a422d9e584.svg?invert_in_darkmode" align=middle width=82.4274pt height=21.60213pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
@@ -37,6 +37,10 @@ Participants are allowed to collect additional annotations (e.g. bounding boxes)
 
 ## Annotation Format
 We closely follow the annotation format of the [COCO dataset](http://mscoco.org/dataset/#download). The annotations are stored in the [JSON format](http://www.json.org/) and are organized as follows:
+In addition to flower images, extra infomations are provided for possibly better identification
+1. We provide when&where the images were uploaded
+2. Every flower has its own super category, we provide that by "family" attribute
+3. We provide extra 200,000 unlabeled images
 ```
 {
   "info" : info,
@@ -62,12 +66,16 @@ image{
   "file_name" : str,
   "license" : int,
   "rights_holder" : str
+  "upload_latitue": float
+  "upload_longitude": float
+  "upload_date": str
 }
 
 category{
   "id" : int,
+  "genus": str
+  "family": str
   "name" : str,
-  "supercategory" : str,
 }
 
 annotation{
