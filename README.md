@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/richardaecn/fgvcx_flower_comp/master/assets/flower_cover.jpg)
+![Banner](/assets/flower_cover.jpg)
 
 # 2018 FGVCx Flower Classification Challenge
 The 2018 competition is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
@@ -20,13 +20,13 @@ Winners Announced|June 22, 2018|
 There are a total of 997 flower species in the dataset, with 650,000 training images and 4,985 validation images. The testing set contains 7,976 images.
 
 ## Evaluation
-We use top-1 classification accuracy as the evaluation metric. For each image <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 1 label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/bb29cf3d0decad4c2df62b08fbcb2d23.svg?invert_in_darkmode" align=middle width=9.52017pt height=22.74591pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
-<p align="center"><img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/d89b544c1c8649aab60422b5cf483052.svg?invert_in_darkmode" align=middle width=117.29916pt height=24.865665pt/></p>
+We use top-1 classification accuracy as the evaluation metric. For each image <img src="/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 1 label <img src="/svgs/bb29cf3d0decad4c2df62b08fbcb2d23.svg?invert_in_darkmode" align=middle width=9.52017pt height=22.74591pt/>. For this competition each image has one ground truth label <img src="/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
+<p align="center"><img src="/svgs/d89b544c1c8649aab60422b5cf483052.svg?invert_in_darkmode" align=middle width=117.29916pt height=24.865665pt/></p>
 Where
-<p align="center"><img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/7a45c501d5042bd031a267f008fa2ae6.svg?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/></p>
+<p align="center"><img src="/svgs/7a45c501d5042bd031a267f008fa2ae6.svg?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/></p>
 
-The overall error score for an algorithm is the average error over all <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode" align=middle width=14.94405pt height=22.38192pt/> test images:
-<p align="center"><img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/444adcac0c7cbb4a8419ee1484625349.svg?invert_in_darkmode" align=middle width=118.05123pt height=41.069655pt/></p>
+The overall error score for an algorithm is the average error over all <img src="/svgs/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode" align=middle width=14.94405pt height=22.38192pt/> test images:
+<p align="center"><img src="/svgs/444adcac0c7cbb4a8419ee1484625349.svg?invert_in_darkmode" align=middle width=118.05123pt height=41.069655pt/></p>
 
 ## Guidelines
 Participants are restricted to train their algorithms on the 2018 FGVCx Flower Classification competition train and validation sets. Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target species in the 2018 FGVCx Flower Classification competition. Please specify any and all external data used for training when uploading results.
