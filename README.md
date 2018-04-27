@@ -2,7 +2,7 @@
 
 # 2018 FGVCx Flower Classification Challenge
 The 2018 competition is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
-Our sponsor, the [Xingse App](https://www.xingseapp.com/) & [PictureThis App](https://www.picturethisai.com/), has provided a dataset from a carefully curated database containing over 669,000 annotated flower images from 997 flower species.
+Our sponsor, the [Xingse App (Chinese version)](https://www.xingseapp.com/) & [PictureThis App (English version)](https://www.picturethisai.com/), has provided a dataset from a carefully curated database containing over 669,000 annotated flower images from 997 flower species.
 
 Please open an issue if you have questions or problems with the dataset.
 
