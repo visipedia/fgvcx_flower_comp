@@ -2,18 +2,19 @@
 
 # 2018 FGVCx Flower Classification Challenge
 The 2018 competition is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
-Our sponsor, the [Xingse App](https://www.xingseapp.com/) & [PictureThis App](https://www.picturethisai.com/), has provided a dataset from a carefully curated database containing over 650,000 flower images from 997 flower species.
+Our sponsor, the [Xingse App](https://www.xingseapp.com/) & [PictureThis App](https://www.picturethisai.com/), has provided a dataset from a carefully curated database containing over 669,000 annotated flower images from 997 flower species.
 
 Please open an issue if you have questions or problems with the dataset.
 
 ## Kaggle
-We are using Kaggle to host the leaderboard. Checkout the competition page [here](https://www.kaggle.com/c/flower-challenge-fgvc-2018).
+We are using Kaggle to host the leaderboard. Checkout the competition page here:
+* [Kaggle Competition Page](https://www.kaggle.com/c/fgvc2018-flower/).
 
 ## Dates
 |||
 |------|---------------|
-Data Released|April 25, 2018|
-Submission Deadline|June 15, 2018|
+Data Released|April 27, 2018|
+Submission Deadline|June 8, 2018|
 Winners Announced|June 22, 2018|
 
 ## Details
@@ -113,6 +114,5 @@ By downloading this dataset you agree to the following terms:
 
 
 ## Data
-(TBD) 
-
-Download the dataset files here:
+Download the dataset files from Kaggle competition page:
+* [Kaggle Competition Page](https://www.kaggle.com/c/fgvc2018-flower/data).
