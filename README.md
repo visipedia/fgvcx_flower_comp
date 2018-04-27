@@ -18,10 +18,10 @@ Submission Deadline|June 8, 2018|
 Winners Announced|June 22, 2018|
 
 ## Details
-There are a total of 997 flower species in the dataset, with 650,000 training images and 4,985 validation images. The testing set contains 7,976 images.
+There are a total of 997 flower species in the dataset, with 669,304 training and validation images. The testing set contains 12,961 images.
 
 ## Evaluation
-We use top-1 classification accuracy as the evaluation metric. For each image <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 1 label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/bb29cf3d0decad4c2df62b08fbcb2d23.svg?invert_in_darkmode" align=middle width=9.52017pt height=22.74591pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
+We use top-1 error rate as the evaluation metric. For each image <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 1 label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/bb29cf3d0decad4c2df62b08fbcb2d23.svg?invert_in_darkmode" align=middle width=9.52017pt height=22.74591pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
 <p align="center"><img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/d89b544c1c8649aab60422b5cf483052.svg?invert_in_darkmode" align=middle width=117.29916pt height=24.865665pt/></p>
 Where
 <p align="center"><img src="https://rawgit.com/richardaecn/fgvcx_flower_comp/master/svgs/7a45c501d5042bd031a267f008fa2ae6.svg?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/></p>
