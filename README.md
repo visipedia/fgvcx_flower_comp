@@ -69,7 +69,7 @@ image{
   "file_name" : str,
   "license" : int,
   "rights_holder" : str
-  "upload_latitue": float
+  "upload_latitude": float
   "upload_longitude": float
   "upload_date": str
 }
