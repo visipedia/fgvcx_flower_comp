@@ -118,4 +118,4 @@ Download the dataset files from Kaggle competition page:
 * [Kaggle Competition Page](https://www.kaggle.com/c/fgvc2018-flower/data).
 
 For participants in China, the downloading from Kaggle might be very slow. Please feel free to use the following link:
-* [Baidu Drive](http://cvpr2018-cn.glority.com)
+* [Baidu Drive](http://cvpr2018-cn.glority.com).
